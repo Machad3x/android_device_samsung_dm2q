@@ -21,6 +21,9 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-matrixx
+
 PRODUCT_PACKAGES += \
     FrameworksResDm2q \
     SystemUIResDm2q \
